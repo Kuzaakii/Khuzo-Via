@@ -1,0 +1,13 @@
+else if(message.content === "cool"){
+  var embed = new Discord.RichEmbed()
+    .setColor(0xFFFFFF)
+    .setTitle("Toute ces regles doivent �tre respecter sous risque d'�tre kick (ban selon la graviter de la chose)")
+    .setImage("https://image.noelshack.com/fichiers/2018/14/4/1522949597-reglement.png");
+  message.channel.send({embed});
+} else if(message.content === "cool"){
+  var embed = new Discord.RichEmbed()
+    .setColor(0xFFFFFF)
+    .setTitle("All these rules must be respected under risk of being kick (ban according to the gravity of the thing)")
+    .setImage("https://image.noelshack.com/fichiers/2018/14/6/1523092905-sans-titre.png");
+  message.channel.send({embed});
+}
